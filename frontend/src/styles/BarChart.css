@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the entire application */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Dropdown Styles */
+.dropdown {
+    margin-bottom: 20px;
+}
+
+.dropdown select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Bar Chart Styles */
+.chart-container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+
+    .dropdown select {
+        font-size: 14px;
+    }
+}
